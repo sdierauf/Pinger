@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C1232EC183AD21C006DF94F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1232EB183AD21C006DF94F /* SystemConfiguration.framework */; };
+		6CB6B861183ACBFD003ABC24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB6B860183ACBFD003ABC24 /* Foundation.framework */; };
+		6CB6B863183ACBFE003ABC24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB6B862183ACBFE003ABC24 /* CoreGraphics.framework */; };
+		6CB6B865183ACBFE003ABC24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB6B864183ACBFE003ABC24 /* UIKit.framework */; };
+		6CB6B86B183ACBFE003ABC24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6B869183ACBFE003ABC24 /* InfoPlist.strings */; };
+		6CB6B86D183ACBFE003ABC24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB6B86C183ACBFE003ABC24 /* main.m */; };
+		6CB6B871183ACBFE003ABC24 /* PingerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB6B870183ACBFE003ABC24 /* PingerAppDelegate.m */; };
+		6CB6B874183ACBFE003ABC24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6B872183ACBFE003ABC24 /* Main.storyboard */; };
+		6CB6B877183ACBFE003ABC24 /* PingerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB6B876183ACBFE003ABC24 /* PingerViewController.m */; };
+		6CB6B879183ACBFE003ABC24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6B878183ACBFE003ABC24 /* Images.xcassets */; };
+		6CB6B880183ACBFE003ABC24 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB6B87F183ACBFE003ABC24 /* XCTest.framework */; };
+		6CB6B881183ACBFE003ABC24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB6B860183ACBFD003ABC24 /* Foundation.framework */; };
+		6CB6B882183ACBFE003ABC24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB6B864183ACBFE003ABC24 /* UIKit.framework */; };
+		6CB6B88A183ACBFE003ABC24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CB6B888183ACBFE003ABC24 /* InfoPlist.strings */; };
+		6CB6B88C183ACBFE003ABC24 /* PingerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB6B88B183ACBFE003ABC24 /* PingerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CB6B883183ACBFE003ABC24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CB6B855183ACBFD003ABC24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CB6B85C183ACBFD003ABC24;
+			remoteInfo = Pinger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C1232EB183AD21C006DF94F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6CB6B85D183ACBFD003ABC24 /* Pinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB6B860183ACBFD003ABC24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CB6B862183ACBFE003ABC24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CB6B864183ACBFE003ABC24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CB6B868183ACBFE003ABC24 /* Pinger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pinger-Info.plist"; sourceTree = "<group>"; };
+		6CB6B86A183ACBFE003ABC24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CB6B86C183ACBFE003ABC24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CB6B86E183ACBFE003ABC24 /* Pinger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pinger-Prefix.pch"; sourceTree = "<group>"; };
+		6CB6B86F183ACBFE003ABC24 /* PingerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PingerAppDelegate.h; sourceTree = "<group>"; };
+		6CB6B870183ACBFE003ABC24 /* PingerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingerAppDelegate.m; sourceTree = "<group>"; };
+		6CB6B873183ACBFE003ABC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CB6B875183ACBFE003ABC24 /* PingerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PingerViewController.h; sourceTree = "<group>"; };
+		6CB6B876183ACBFE003ABC24 /* PingerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingerViewController.m; sourceTree = "<group>"; };
+		6CB6B878183ACBFE003ABC24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CB6B87E183ACBFE003ABC24 /* PingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB6B87F183ACBFE003ABC24 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6CB6B887183ACBFE003ABC24 /* PingerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingerTests-Info.plist"; sourceTree = "<group>"; };
+		6CB6B889183ACBFE003ABC24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CB6B88B183ACBFE003ABC24 /* PingerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CB6B85A183ACBFD003ABC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1232EC183AD21C006DF94F /* SystemConfiguration.framework in Frameworks */,
+				6CB6B863183ACBFE003ABC24 /* CoreGraphics.framework in Frameworks */,
+				6CB6B865183ACBFE003ABC24 /* UIKit.framework in Frameworks */,
+				6CB6B861183ACBFD003ABC24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB6B87B183ACBFE003ABC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB6B880183ACBFE003ABC24 /* XCTest.framework in Frameworks */,
+				6CB6B882183ACBFE003ABC24 /* UIKit.framework in Frameworks */,
+				6CB6B881183ACBFE003ABC24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CB6B854183ACBFD003ABC24 = {
+			isa = PBXGroup;
+			children = (
+				6CB6B866183ACBFE003ABC24 /* Pinger */,
+				6CB6B885183ACBFE003ABC24 /* PingerTests */,
+				6CB6B85F183ACBFD003ABC24 /* Frameworks */,
+				6CB6B85E183ACBFD003ABC24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CB6B85E183ACBFD003ABC24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB6B85D183ACBFD003ABC24 /* Pinger.app */,
+				6CB6B87E183ACBFE003ABC24 /* PingerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CB6B85F183ACBFD003ABC24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C1232EB183AD21C006DF94F /* SystemConfiguration.framework */,
+				6CB6B860183ACBFD003ABC24 /* Foundation.framework */,
+				6CB6B862183ACBFE003ABC24 /* CoreGraphics.framework */,
+				6CB6B864183ACBFE003ABC24 /* UIKit.framework */,
+				6CB6B87F183ACBFE003ABC24 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CB6B866183ACBFE003ABC24 /* Pinger */ = {
+			isa = PBXGroup;
+			children = (
+				6CB6B872183ACBFE003ABC24 /* Main.storyboard */,
+				6CB6B875183ACBFE003ABC24 /* PingerViewController.h */,
+				6CB6B876183ACBFE003ABC24 /* PingerViewController.m */,
+				6CB6B878183ACBFE003ABC24 /* Images.xcassets */,
+				6CB6B867183ACBFE003ABC24 /* Supporting Files */,
+			);
+			path = Pinger;
+			sourceTree = "<group>";
+		};
+		6CB6B867183ACBFE003ABC24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CB6B86F183ACBFE003ABC24 /* PingerAppDelegate.h */,
+				6CB6B870183ACBFE003ABC24 /* PingerAppDelegate.m */,
+				6CB6B868183ACBFE003ABC24 /* Pinger-Info.plist */,
+				6CB6B869183ACBFE003ABC24 /* InfoPlist.strings */,
+				6CB6B86C183ACBFE003ABC24 /* main.m */,
+				6CB6B86E183ACBFE003ABC24 /* Pinger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CB6B885183ACBFE003ABC24 /* PingerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CB6B88B183ACBFE003ABC24 /* PingerTests.m */,
+				6CB6B886183ACBFE003ABC24 /* Supporting Files */,
+			);
+			path = PingerTests;
+			sourceTree = "<group>";
+		};
+		6CB6B886183ACBFE003ABC24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CB6B887183ACBFE003ABC24 /* PingerTests-Info.plist */,
+				6CB6B888183ACBFE003ABC24 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CB6B85C183ACBFD003ABC24 /* Pinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB6B88F183ACBFE003ABC24 /* Build configuration list for PBXNativeTarget "Pinger" */;
+			buildPhases = (
+				6CB6B859183ACBFD003ABC24 /* Sources */,
+				6CB6B85A183ACBFD003ABC24 /* Frameworks */,
+				6CB6B85B183ACBFD003ABC24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pinger;
+			productName = Pinger;
+			productReference = 6CB6B85D183ACBFD003ABC24 /* Pinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CB6B87D183ACBFE003ABC24 /* PingerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB6B892183ACBFE003ABC24 /* Build configuration list for PBXNativeTarget "PingerTests" */;
+			buildPhases = (
+				6CB6B87A183ACBFE003ABC24 /* Sources */,
+				6CB6B87B183ACBFE003ABC24 /* Frameworks */,
+				6CB6B87C183ACBFE003ABC24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CB6B884183ACBFE003ABC24 /* PBXTargetDependency */,
+			);
+			name = PingerTests;
+			productName = PingerTests;
+			productReference = 6CB6B87E183ACBFE003ABC24 /* PingerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CB6B855183ACBFD003ABC24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Pinger;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stefan Dierauf";
+				TargetAttributes = {
+					6CB6B87D183ACBFE003ABC24 = {
+						TestTargetID = 6CB6B85C183ACBFD003ABC24;
+					};
+				};
+			};
+			buildConfigurationList = 6CB6B858183ACBFD003ABC24 /* Build configuration list for PBXProject "Pinger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CB6B854183ACBFD003ABC24;
+			productRefGroup = 6CB6B85E183ACBFD003ABC24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CB6B85C183ACBFD003ABC24 /* Pinger */,
+				6CB6B87D183ACBFE003ABC24 /* PingerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CB6B85B183ACBFD003ABC24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB6B879183ACBFE003ABC24 /* Images.xcassets in Resources */,
+				6CB6B86B183ACBFE003ABC24 /* InfoPlist.strings in Resources */,
+				6CB6B874183ACBFE003ABC24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB6B87C183ACBFE003ABC24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB6B88A183ACBFE003ABC24 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CB6B859183ACBFD003ABC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB6B86D183ACBFE003ABC24 /* main.m in Sources */,
+				6CB6B877183ACBFE003ABC24 /* PingerViewController.m in Sources */,
+				6CB6B871183ACBFE003ABC24 /* PingerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB6B87A183ACBFE003ABC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB6B88C183ACBFE003ABC24 /* PingerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CB6B884183ACBFE003ABC24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CB6B85C183ACBFD003ABC24 /* Pinger */;
+			targetProxy = 6CB6B883183ACBFE003ABC24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CB6B869183ACBFE003ABC24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB6B86A183ACBFE003ABC24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CB6B872183ACBFE003ABC24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB6B873183ACBFE003ABC24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CB6B888183ACBFE003ABC24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB6B889183ACBFE003ABC24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CB6B88D183ACBFE003ABC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CB6B88E183ACBFE003ABC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CB6B890183ACBFE003ABC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinger/Pinger-Prefix.pch";
+				INFOPLIST_FILE = "Pinger/Pinger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CB6B891183ACBFE003ABC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinger/Pinger-Prefix.pch";
+				INFOPLIST_FILE = "Pinger/Pinger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6CB6B893183ACBFE003ABC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pinger.app/Pinger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinger/Pinger-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PingerTests/PingerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6CB6B894183ACBFE003ABC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pinger.app/Pinger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinger/Pinger-Prefix.pch";
+				INFOPLIST_FILE = "PingerTests/PingerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CB6B858183ACBFD003ABC24 /* Build configuration list for PBXProject "Pinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB6B88D183ACBFE003ABC24 /* Debug */,
+				6CB6B88E183ACBFE003ABC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB6B88F183ACBFE003ABC24 /* Build configuration list for PBXNativeTarget "Pinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB6B890183ACBFE003ABC24 /* Debug */,
+				6CB6B891183ACBFE003ABC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB6B892183ACBFE003ABC24 /* Build configuration list for PBXNativeTarget "PingerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB6B893183ACBFE003ABC24 /* Debug */,
+				6CB6B894183ACBFE003ABC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CB6B855183ACBFD003ABC24 /* Project object */;
+}
